@@ -1,8 +1,4 @@
 <template>
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav> -->
   <PortfolioNavbar/>
   <router-view/>
 </template>
@@ -17,6 +13,12 @@ export default {
 </script>
 
 <style>
+router-view{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 *{
   margin: 0;
   padding: 0;

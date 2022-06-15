@@ -43,7 +43,6 @@ export default {
 }
 
 .router-link_item{
-    opacity: 0.4;
     transition: all 0.4s ease;
     color: #FFF;
     text-transform: uppercase;
@@ -56,8 +55,8 @@ export default {
     opacity: 0.7;
 }
 
-.router-link_item.active{
-    opacity: 1;
-}
+// .router-link_item.active{
+//     opacity: 1;
+// }
 
 </style>
