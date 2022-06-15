@@ -40,7 +40,7 @@
         formativo da Full Stack Web Developer con Boolean Careers.<br>
         Il corso mi ha fatto capire quanto per me questo settore sia stimolante, creativo e quanto mi invoglia a finalizzare le varie tecnologie e a impararne di nuove.<br>
         <br>
-        Dopo questa breve presentazione ti do il benvenuto nel mio primo portfolio realizzato con VueJS e tutte le tecnologie a lui integrabili.
+        Dopo questa breve presentazione ti do il benvenuto nel mio primo portfolio realizzato con VueJS e alcune tecnologie a lui integrabili.
       </p>
     </div>
   </section>
@@ -90,8 +90,8 @@ export default {
 }
 
 .home_pic{
-  width: 200px;
-  height: 200px;
+  width: 60%;
+  // height: 60%;
   border-radius: 9999px;
   // position: absolute;
   // left: 5%;
@@ -125,7 +125,7 @@ export default {
 .description{
     color: #FFF;
     max-width: 70%;
-    text-align: left;
+    text-align: center;
     font-size: 1.2rem;
 }
 

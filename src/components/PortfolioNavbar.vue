@@ -1,8 +1,8 @@
 <template>
     <nav class="navbar">
         <ul class="router-link_list">
-            <router-link class="router-link_item active" to="/">home</router-link>
-            <router-link class="router-link_item" to="/about">about me</router-link>
+            <router-link class="router-link_item active" to="/">su di me</router-link>
+            <router-link class="router-link_item" to="/projects">i miei progetti</router-link>
         </ul>
     </nav>
 </template>
