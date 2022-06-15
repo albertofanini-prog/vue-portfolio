@@ -33,14 +33,15 @@
         </li>
       </ul>
       <p class="description">
-        Nato ad Arezzo il 3 luglio del 1998, ho sempre avuto la passione per la tecnologia e per il web development. <br>
+        <!-- Nato ad Arezzo il 3 luglio del 1998, ho sempre avuto la passione per la tecnologia. <br>
         E una passione che ho iniziato a coltivare già dalla scuola media quando, scegliendo l'indirizzo informatico, ebbi modo di iniziare a utilizzare
         le varie tecnologie di base quali HTML e JS.<br>
         Stanco della solita vita monotona, a fine novembre 2021, decido di lasciare il tanto ambito posto fisso per intraprendere il corso
         formativo da Full Stack Web Developer con Boolean Careers.<br>
         Il corso mi ha fatto capire quanto per me questo settore sia stimolante, creativo e quanto mi invoglia a finalizzare le varie tecnologie e a impararne di nuove.<br>
         <br>
-        Dopo questa breve presentazione ti do il benvenuto nel mio primo portfolio realizzato con VueJS e alcune tecnologie a lui integrabili.
+        Dopo questa breve presentazione ti do il benvenuto nel mio primo portfolio realizzato con VueJS e alcune tecnologie a lui integrabili. -->
+        Descrizione
       </p>
     </div>
   </section>
@@ -84,8 +85,8 @@ export default {
 
 @media screen and (max-width: 630px){
     .home_section_pic{
-        width: 95%;
-    justify-content: center;
+      width: 95%;
+      justify-content: center;
     }
 }
 
