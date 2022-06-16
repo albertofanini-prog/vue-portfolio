@@ -95,22 +95,24 @@
                         </div>
                     </div>
                 </li>
-                <li class="card laravel">
+                <li class="card" id="laravel_card">
                     <div class="card_img">
-                        <img src="../assets/projects_screens/VueNetflix.png" alt="">
+                        <img src="../assets/projects_screens/laravel_backoffice_index.png" alt="">
                     </div>
                     <div class="card_text">
                         <h4>
-                            Netflix
+                            Laravel backoffice
                         </h4>
                         <p>
-                            Replica di Netflix realizzata con VueJS che, recuperando i dati da TheMovieDatabase, mostra i risultati in pagina.
-                            Tramite la searchbar è possibile ricercare i film o le serie tv scrivendo il titolo.
-                            Quando il cursore viene spostato sopra al film, verranno mostrati: il titolo originale, il titolo tradotto, la lingua originale
-                            trasformata da sigla (EN, IT...) a bandiera. La descrizione e il voto numerico trasformato da numero a stella.
+                            Backoffice realizzato con Laravel.
+                            Il login è protetto da autenticazione,
+                            la registrazione richiede di confermare l'e-mail di verifica attraverso MailTrap.
+                            Tutti i form sono forniti di validazione sia server-side sia client-side.
+                            Completo di tutte le curd: create, show, soft-delete, edit.
+                            L'applicativo è collegato al database MySQL e popolato da faker. 
                         </p>
                         <p>
-                            Visita il codice cliccando <a target="_blank" href="https://github.com/albertofanini-prog/vue-netflix">qui</a>.
+                            Visita il codice cliccando <a target="_blank" href="https://github.com/albertofanini-prog/laravel-vue-router">qui</a>.
                         </p>
                         <div class="data_p">
                             28/02/2022
@@ -123,8 +125,10 @@
 </template>
 
 <script>
+
 export default {
-    
+    components: {
+    }
 }
 </script>
 
@@ -192,7 +196,7 @@ export default {
 .card{
     // border: 1px solid red;
     width: calc((100% / 2) - 40px);
-    // height: 650px;
+    // min-height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -257,6 +261,16 @@ export default {
 
 .laravel{
     width: calc(90% - 40px);
+}
+
+#laravel_card{
+    width: calc(100% - 40px);
+}
+
+@media screen and (max-width: 880px){
+    #laravel_card{
+        width: calc(90% - 40px);
+    }
 }
 
 </style>
