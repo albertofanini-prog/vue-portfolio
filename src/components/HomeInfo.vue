@@ -61,10 +61,96 @@ export default {
   align-items: flex-start;
   justify-content: center;
   margin: 0;
-}
-
-@media screen and (max-width: 630px){
-    .home_section{
+  padding-top: 50px;
+  .home_section_pic{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .home_pic{
+      width: 70%;
+      border-radius: 9999px;
+    }
+    @media screen and (max-width: 630px){
+      width: 95%;
+      justify-content: center;
+    }
+  }
+  .home_section_text{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    .name{
+      color: #42b983;
+      font-size: 2.4rem;
+      padding-bottom: 10px;
+    }
+    .job{
+      color: #FFF;
+      font-size: 1.4rem;
+      padding-bottom: 10px;
+    }
+    .tecnologies_list{
+    //   border: 3px solid orange;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      width: 100%;
+      padding-bottom: 20px;
+      .tecnologies_list_item{
+        width: 65px;
+        height: 65px;
+        #html, #css, #bootstrap, #js, #vue, #sass, #laravel{
+          border-radius: 9999px;
+          overflow: hidden;
+        }
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      #php_container{
+        width: 125px;
+      }
+      @media screen and (max-width: 998px){
+        width: 70%;
+      }
+      @media screen and (max-width: 668px){
+        width: 60%;
+      }
+      @media screen and (max-width: 614px){
+        width: 75%;
+      }
+      @media screen and (max-width: 491px){
+        width: 60%;
+      }
+      @media screen and (max-width: 377px){
+        width: 100%;
+      }
+    }
+    .description{
+      color: #FFF;
+      width: 75%;
+      text-align: center;
+      font-size: 1.2rem;
+      padding-bottom: 25px;
+      @media screen and (max-width: 630px){
+        text-align: center;
+      }
+      @media screen and (max-width: 630px){
+        width: 90%;
+      }
+    }
+    @media screen and (max-width: 630px){
+      width: 95%;
+    }
+  }
+  @media screen and (max-width: 630px){
     // width: 80%;
     // height: 100%;
     display: flex;
@@ -72,97 +158,6 @@ export default {
     align-items: center;
     justify-content: center;
     margin: 0;
-    }
+  }
 }
-
-.home_section_pic{
-  width: 35%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-@media screen and (max-width: 630px){
-    .home_section_pic{
-      width: 95%;
-      justify-content: center;
-    }
-}
-
-.home_pic{
-  width: 70%;
-  // height: 60%;
-  border-radius: 9999px;
-  // position: absolute;
-  // left: 5%;
-}
-
-.home_section_text{
-  width: 65%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
-}
-
-@media screen and (max-width: 630px){
-    .home_section_text{
-        width: 95%;
-    }
-}
-
-.name{
-  color: #42b983;
-  font-size: 2.4rem;
-}
-
-.job{
-  color: #FFF;
-  font-size: 1.4rem;
-}
-
-.description{
-    color: #FFF;
-    max-width: 70%;
-    text-align: center;
-    font-size: 1.2rem;
-    padding-bottom: 25px;
-}
-
-@media screen and (max-width: 630px){
-    .description{
-        text-align: center;
-    }
-}
-
-.tecnologies_list{
-//   border: 3px solid orange;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  max-width: 60%;
-}
-
-.tecnologies_list_item{
-  width: 65px;
-  height: 65px;
-}
-
-#php_container{
-  width: 125px;
-}
-
-.tecnologies_list_item img{
-  width: 100%;
-  height: 100%;
-}
-
-#html, #css, #bootstrap, #js, #vue, #sass, #laravel{
-  border-radius: 9999px;
-  overflow: hidden;
-}
-
 </style>

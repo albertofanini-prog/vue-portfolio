@@ -91,7 +91,7 @@
                             Visita il codice cliccando <a target="_blank" href="https://github.com/albertofanini-prog/vue-netflix">qui</a>.
                         </p>
                         <div class="data_p">
-                            28/02/2022
+                            15/03/2022
                         </div>
                     </div>
                 </li>
@@ -115,7 +115,7 @@
                             Visita il codice cliccando <a target="_blank" href="https://github.com/albertofanini-prog/laravel-vue-router">qui</a>.
                         </p>
                         <div class="data_p">
-                            28/02/2022
+                            02/04/2022
                         </div>
                     </div>
                 </li>
@@ -246,6 +246,10 @@ export default {
 .card_text h4{
     font-size: 1.6rem;
     transition: 0.3s ease-in-out;
+}
+.card_text p{
+    // max-width: 90%;
+    padding: 0 5px;
 }
 
 .card_text h4:hover{

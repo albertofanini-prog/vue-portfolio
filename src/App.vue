@@ -13,12 +13,6 @@ export default {
 </script>
 
 <style>
-router-view{
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -39,6 +33,12 @@ a{
   height: 100%;
 } */
 
+router-view{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
 body{
   display: flex;
   justify-content: center;
@@ -48,6 +48,24 @@ body{
   background-color: #1A1E23;
 }
 
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #1A1E23;
+}
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -55,10 +73,6 @@ body{
   text-align: center;
   color: #2c3e50;
   width: 100%;
-}
-
-nav {
-  height: 75px;
 }
 
 nav a {
