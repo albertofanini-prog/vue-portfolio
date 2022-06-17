@@ -43,6 +43,9 @@ export default {
     letter-spacing: 0.2em;
     transition: 0.9s ease-in-out;
     font-size: 1.2rem;
+    @media screen and (max-width: 400px){
+        width: 50%;
+    }
 }
 
 .router-link_item:hover{
